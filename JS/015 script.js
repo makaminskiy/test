@@ -31,6 +31,9 @@ P.S. Функции вызывать не обязательно*/
 
 let numberOfFilms;
 
+
+start();
+
 const personalMovieDB={
     count:numberOfFilms,
     movies: {},
@@ -38,9 +41,6 @@ const personalMovieDB={
     genres:[],
     privat: false
 };
-
-
-start();
 
 rememberMyFilms();
 
